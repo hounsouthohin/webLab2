@@ -14,7 +14,7 @@
               try {
                   const postsResponse = await fetch('http://localhost:5501/posts');
                   //postsResponse.json() : 
-                  // Transforme la réponse brute en un objet JavaScript en la convertissant depuis le format JSON.
+                  // Transforme  la réponse brute en un objet JavaScript en la convertissant depuis le format JSON.
                   const posts = await postsResponse.json();
                   postsContainer.innerHTML = ''; // Nettoie le conteneur avant d'ajouter les nouveaux posts
                   
