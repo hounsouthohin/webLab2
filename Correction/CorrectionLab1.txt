@@ -1,0 +1,4 @@
+Corrections apportées : 
+Suppressions des variables, des fonctions et des mixins dans le fichier styles.scss
+Utilisation correcte de la grille bootstrap
+Suppression des dossiers mobile et desktop 

@@ -25,23 +25,29 @@
                       postElement.innerHTML = `
               
                         <!-- Carte 1 -->
-                            <div class="col">
-                                <a href="  blog_post.html?id=${post.id}" class=" text-decoration-none publication-link">
-                                    <div class="card carte m-auto">
-                                    <img src="img/blog.jpg" class="card-img-top" alt="card">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title text-white title fw-bold shadow-lg p-2 rounded">${post.title}</h5>
-                                        <p class="card-text text-dark">${post.content}</p>
-                                        <p class="card-meta  text-center text-dark">
-                                    <small>
-                                        <strong >Auteur :</strong> ${post.author} | 
-                                        <strong >Date :</strong> ${new Date(post.date).toLocaleDateString('fr-FR')}
-                                    </small>
-                                </p>
-                                    </div>
-                                </div>
-                                </a>         
-                            </div>
+    <div class="col">
+        <a href="blog_post.html?id=${post.id}" class="text-decoration-none publication-link">
+            <div class="card carte m-auto h-100 w-100">
+                <img src="img/blog.jpg" class="card-img-top" alt="card">
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title text-white title fw-bold shadow-lg p-2 rounded">${post.title}</h5>
+                    
+                    <!-- Texte défilant dans un conteneur Bootstrap -->
+                    <div class="card-text card-text-scroll overflow-auto text-dark">
+                        ${post.content}
+                    </div>
+                    
+                    <p class="card-meta mt-auto text-center text-dark">
+                        <small>
+                            <strong>Auteur :</strong> ${post.author} | 
+                            <strong>Date :</strong> ${new Date(post.date).toLocaleDateString('fr-FR')}
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </a>         
+    </div>
+
                       `;
                       postsContainer.appendChild(postElement);
       

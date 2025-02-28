@@ -1,7 +1,4 @@
-// Charger les fonctions et variables Bootstrap
-@import "node_modules/bootstrap/scss/functions" ;
-@import "node_modules/bootstrap/scss/variables" ;
-@import "node_modules/bootstrap/scss/mixins" ;
+
 
 // Modifier la couleur primaire
 $primary: #00ADB5;
@@ -12,7 +9,7 @@ $theme-colors: (
 );
 
 // Importer Bootstrap après les modifications
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 
@@ -23,7 +20,7 @@ $theme-colors: (
   padding: 20px;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
+justify-content: center;
   align-items: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); // Ombre légère pour un effet moderne
 }
@@ -111,4 +108,9 @@ nav{
 
 #confirmationDialog {
   display: none;
+}
+
+
+.card-text-scroll {
+  max-height: 150px; /* Limite la hauteur du contenu */
 }

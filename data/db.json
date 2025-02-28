@@ -200,6 +200,11 @@
       "id": "39bc",
       "content": "Genial l'asynchronité",
       "postId": "2"
+    },
+    {
+      "id": "afee",
+      "content": "j'aime plutot blazor server pour sa complexité",
+      "postId": "4"
     }
   ]
 }
