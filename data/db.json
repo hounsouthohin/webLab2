@@ -104,6 +104,20 @@
       "author": "World",
       "content": "À l'ère du numérique, avoir une présence en ligne est devenu essentiel pour les individus et les entreprises. Cet article guide le lecteur à travers les étapes de la création d'une présence en ligne efficace. Nous explorerons les différentes plateformes disponibles pour créer un site web ou un blog, discutant de leurs avantages et inconvénients. L'article abordera l'importance du contenu de qualité, du design attrayant et de la gestion des interactions utilisateur. Enfin, nous discuterons des meilleures pratiques en matière de marketing en ligne et de la gestion des relations publiques.",
       "date": "2025-02-26"
+    },
+    {
+      "id": 1740756803994,
+      "title": "le GOAT du foot",
+      "author": "Warou Pere",
+      "content": "Le goat pour moi c'est cr7",
+      "date": "2025-02-28"
+    },
+    {
+      "id": 1740757096910,
+      "title": "le GOAT du foot",
+      "author": "Warou Pere",
+      "content": "Pour moi c'est Lionel814851148417\n",
+      "date": "2025-02-28"
     }
   ],
   "comments": [
@@ -205,6 +219,21 @@
       "id": "afee",
       "content": "j'aime plutot blazor server pour sa complexité",
       "postId": "4"
+    },
+    {
+      "id": "a864",
+      "content": "salut",
+      "postId": "2"
+    },
+    {
+      "id": "0de4",
+      "content": "allo",
+      "postId": "1"
+    },
+    {
+      "id": "7172",
+      "content": "salut",
+      "postId": "1"
     }
   ]
 }
